@@ -1,0 +1,100 @@
+  307  rm home-contents.txt 
+  308  ls
+  309  cat /foo > /tmp/foo.txt
+  310  cat
+  311  cat > languages.txt
+  312  ls
+  313  wc languages.txt 
+  314  curl https://www.data.gouv.fr/s/resources/liste-de-prenoms/20141127-154433/Prenoms.csv -o Prenoms.csv
+  315  ls
+  316  cd ~
+  317  cd home
+  318  ls
+  319  cd Bureau/reseau/exo\ cours/
+  320  ls
+  321  head Prenoms.csv 20
+  322  man sort
+  323  curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv~
+  324  ls
+  325  curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
+  326  ls
+  327  curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv > exo.txt
+  328  ls
+  329  cat exo.txt 
+  330  man sort
+  331  cd Bureau/reseau/exo\ cours/
+  332  ls
+  333  grep swedish Prenoms.csv > Swedish.csv
+  334  ls
+  335  cat Swedish.csv 
+  336  grep danish Prenoms.csv > Danish.csv
+  337  grep norwegian Prenoms.csv > Norwegian.csv
+  338  ls
+  339  cat Swedish.csv Danish.csv Norwegian.csv | sort -u
+  340  cat Swedish.csv Danish.csv Norwegian.csv | sort 
+  341  ls
+  342  cat exo.txt
+  343  ls
+  344  grep PHP exo.txt > wc -l > php_france_2019.csv
+  345  ls
+  346  cat php_france_2019.csv 
+  347  rm php_france_2019.csv 
+  348  ls
+  349  grep "PHP" exo.txt > wc -l > php_france_2019.csv
+  350  ls
+  351  cat php_france_2019.csv 
+  352  rm php_france_2019.csv 
+  353  grep "PHP" exo.txt < wc -l > php_france_2019.csv
+  354  ls
+  355  cat php_france_2019.csv 
+  356  rm php_france_2019.csv 
+  357  man curl
+  358  curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv -o wilders.csv
+  359  ls
+  360  grep "PHP" wilders.csv > wc -l > php_france_2019.csv
+  361  cat php_france_2019.csv 
+  362  rm php_france_2019.csv 
+  363  grep "PHP" wilders.csv | wc -l > php_france_2019.csv
+  364  cat php_france_2019.csv 
+  365  grep "Javascript" wilders.csv | grep "Toulouse" > javascriptToulouse.csv
+  366  ls
+  367  cat javascriptToulouse.csv 
+  368  rm javascriptToulouse.csv 
+  369  grep "Javascript" wilders.csv > grep "Toulouse" > javascriptToulouse.csv
+  370  ls
+  371  rm javascriptToulouse.csv 
+  372  wilders.csv > grep "Javascript" | grep "Toulouse" > javascriptToulouse.csv
+  373  grep "Javascript" wilders.csv | grep "Toulouse" > javascriptToulouse.csv
+  374  ls
+  375  cat javascriptToulouse.csv 
+  376  grep "Javascript" wilders.csv  > javascriptToulouse.csv
+  377  cat javascriptToulouse.csv 
+  378  grep "Javascript" wilders.csv < grep "Toulouse" > javascriptToulouse.csv
+  379  grep "Javascript" wilders.csv  > javascriptToulouse.csv
+  380  cat javascriptToulouse.csv 
+  381  rm javascriptToulouse.csv 
+  382  grep "javascript" wilders.csv  > javascriptToulouse.csv
+  383  cat javascriptToulouse.csv 
+  384  grep "JavaScript" wilders.csv  > javascriptToulouse.csv
+  385  cat javascriptToulouse.csv 
+  386  rm javascriptToulouse.csv 
+  387  grep "JavaScript" wilders.csv | grep "Toulouse" > javascriptToulouse.csv
+  388  grep "JavaScript" wilders.csv | grep "Biarritz" > javascriptbiarritz.csv
+  389  cat javascriptbiarritz.csv 
+  390  cat javascriptToulouse.csv javascriptbiarritz.csv > javascript-biarritz_toulouse.csv
+  391  ls
+  392  cat javascript-biarritz_toulouse.csv 
+  393  history
+  394  man history
+  395  history_truncate_file 382
+  396  man history
+  397  histoy --history_truncate_file 380
+  398  history --history_truncate_file 380
+  399  man tail
+  400  history
+  401  history > tail -n 100 >
+  402  history > tail 100 -n > history.txt
+  403  history > tail -n 100 > history.txt
+  404  ls
+  405  cat history.txt 
+  406  history | tail -n 100 > history.txt
