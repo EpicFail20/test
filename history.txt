@@ -98,3 +98,10 @@
   404  ls
   405  cat history.txt 
   406  history | tail -n 100 > history.txt
+
+Les commandes ci dessous ont ete rajoutées apres correction du fichier php_france
+436  grep "France" wilders.csv | grep "2019" | grep "PHP" | wc -l > php_france_2019_2.csv
+  437  history
+  438  grep "France,2019,PHP" wilders.csv | wc -l > php_france_2019_2.csv
+  439  history
+A noter que les 2 solutions ci dessus donnent le bon résultat!
