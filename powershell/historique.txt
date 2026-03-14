@@ -1,38 +1,6 @@
 
-  Id     Duration CommandLine
-  --     -------- -----------
-   1        0.009 get-help
-   2        0.111 get-help cd
-   3        0.030 Get-host
-   4        0.067 Set-Location -Path C:\
-   5        0.000 #Une écriture possible pour la création d'un dossier
-   6        0.012 New-Item -ItemType Directory -Path C:\ -Name FolderTest1
-   7        0.000 #Une autre écriture possible pour la création d'un dossier
-   8        0.010 New-Item -ItemType Directory -Path C:\FolderTest2
-   9        0.000 #Création de fichier vide dans le dossier c:\FolderTest
-  10        0.010 New-Item -ItemType File -Path C:\FolderTest1 -Name File1
-  11        0.009 New-Item -ItemType File -Path C:\FolderTest1 -Name File2
-  12        0.007 New-Item -ItemType File -Path C:\FolderTest1 -Name File3
-  13        0.007 New-Item -ItemType File -Path C:\FolderTest1 -Name File4
-  14        0.010 New-Item -ItemType File -Path C:\FolderTest1 -Name File5
-  15        0.000 #Création de fichier vide dans le dossier c:\FolderTest2
-  16        0.000 $Count = 6
-  17        0.024 Do…
-  18        0.010 ls
-  19        0.000 Set-Location -Path /home/epicfail/
-  20        0.000 #Une écriture possible pour la création d'un dossier
-  21        0.013 New-Item -ItemType Directory -Path /home/epicfail/ -Name Fold…
-  22        0.000 #Une autre écriture possible pour la création d'un dossier
-  23        0.001 New-Item -ItemType Directory -Path /home/epicfail/FolderTest2
-  24        0.000 #Création de fichier vide dans le dossier c:\FolderTest
-  25        0.010 New-Item -ItemType File -Path /home/epicfail/FolderTest1 -Nam…
-  26        0.001 New-Item -ItemType File -Path /home/epicfail/FolderTest1 -Nam…
-  27        0.001 New-Item -ItemType File -Path /home/epicfail/FolderTest1 -Nam…
-  28        0.001 New-Item -ItemType File -Path /home/epicfail/FolderTest1 -Nam…
-  29        0.001 New-Item -ItemType File -Path /home/epicfail/FolderTest1 -Nam…
-  30        0.000 #Création de fichier vide dans le dossier c:\FolderTest2
-  31        0.000 $Count = 6
-  32        0.010 Do…
+ 
+  
   33        0.018 Move-item -path FolderTest2/file2 FolderTest2/file4 -Destinat…
   34        0.014 Move-item -path FolderTest2/file2,FolderTest2/file4 -Destinat…
   35        0.008 Move-item -path FolderTest1/file2,FolderTest1/file4 -Destinat…
